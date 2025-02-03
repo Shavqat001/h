@@ -1,0 +1,7 @@
+@import url('./normalize.css');
+@import url('./global.css');
+
+@import url('./main-header.css');
+@import url('./page.css');
+@import url('./main-footer.css');
+@import url('./drop-down-languages.css');
