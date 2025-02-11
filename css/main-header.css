@@ -1,5 +1,5 @@
 .main-header {
-    background-color: rgb(5, 101, 197);
+    background-color: var(--color-secondary);
 }
 
 .main-header__top {
@@ -44,7 +44,6 @@
     padding: 20px;
     display: flex;
     justify-content: center;
-    background-color: rgb(5, 101, 197);
 }
 
 .main-header__navigation ul {
@@ -59,8 +58,11 @@
 }
 
 .main-header__register-btn {
-    color: #fff;
+    color: #F8F9FA;
     margin-left: 20px;
+    background-color: var(--color-accent);
+    border-radius: 6px;
+    padding: 3px 10px 7px 10px;
 }
 
 @media (max-width: 350px) {

@@ -1,0 +1,25 @@
+.page {
+    color: var(--color-text);
+}
+
+.page__wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.page__main {
+    background-color: var(--color-background);
+    padding: 30px;
+}
+
+.page__main article {
+    margin-bottom: 30px;
+}
+
+.page__title {
+    margin-bottom: 20px;
+}
+
+.page__description {
+    margin-bottom: 20px;
+}
